@@ -2,7 +2,7 @@
 
 Your objective is to create a web service, which provides an REST API to perform CRUD data operations , i.e. creating, reading, updating and deleting shops stored in an SQL database. The structure of the API is defined in the specification, which you can find **[here](https://app.swaggerhub.com/apis/heu-pilsen/testday-api/1.0.1)**. 
 
-The API has to be accessible on a localhost (i.e. **IP 127.0.0.1**) on a **port 8080**. It has to use MariaDb as a storage. Everything you need to set up the db is prepared, the only thing you need to do is to run **docker-compose up** inside the api-testday folder. After that, your database is accessible on the **IP adress 172.17.0.1** on the **port 3306** with following credentials:
+The API has to be accessible on a localhost (i.e. **IP 127.0.0.1**) on a **port 8080**. It has to use MariaDb as a storage. Everything you need to set up the db is prepared in this repository. You need to clone this repository and run **docker-compose up** inside the repository folder. After that, your database is accessible on the **IP adress 172.17.0.1** on the **port 3306** with following credentials:
 - IP: 172.17.0.1
 - root password: root
 - database: api_testday
